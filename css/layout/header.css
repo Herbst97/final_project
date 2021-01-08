@@ -1,0 +1,190 @@
+
+.header-and-content {
+    background-color: #14233c;
+}
+
+.header {
+    display: flex;
+    border-bottom: 1px solid #3a465e;
+}
+
+.logo {
+    position: absolute;
+    top: -50px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: var(--left);
+}
+
+.button {
+    position: absolute;
+    right: 30px;
+    top: -50px;
+    background-color: #00a0d6;
+    color: white;
+    border-radius: 10%;
+    width: max-content;
+    height: min-content;
+    padding: 8px 16px;
+    box-shadow: 0px 2px 5px black;
+}
+
+.button:hover {
+    background-color: #0587b3;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+}
+
+.button:active {
+    box-shadow: inset 4px 4px 2px rgb(43, 42, 42);
+}
+
+.button-position {
+    margin-left: auto;
+    margin-right: var(--right);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.button-position a {
+    text-decoration: none;
+}
+
+.first-heading {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: var(--left);
+    margin-right: var(--right);
+}
+
+.first-text {
+    font-size: 150%;
+    color: #b9bdc5;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: var(--left);
+    width: 470px;
+}
+
+.second-p {
+    margin-top: 400px;
+    margin-left: var(--left);
+    margin-right: var(--right);
+    width: 400px;
+}
+
+.third-p {
+    position: absolute;
+    margin-left: var(--left);
+    margin-right: var(--right);
+    margin-top: 550px;
+    color: #39455e;
+    font-size: 110%;
+}
+
+.phone-pics {
+    display: flex;
+    position: absolute;
+    margin-left: var(--left);
+    margin-top: 590px;
+}
+
+@media (max-width: 800px) {
+
+    .button {
+      display: none;
+    }
+    
+    .first-heading {
+        margin-top: 100px;
+    }
+
+    .first-text {
+        margin-top: 180px;
+    }
+
+    .second-p {
+        margin-top: 300px;
+    }
+
+    .third-p {
+        margin-top: 450px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .header {
+        padding-bottom: 25px;
+      }
+}
+
+@media (max-width: 600px) {
+
+    .header {
+        padding-bottom: 0;
+    }
+
+    .phone-pics {
+        display: block;
+        margin-top: 520px;
+    }
+
+    .logo {
+        top: 0px;
+    }
+}
+
+@media (max-width: 550px) {
+    .first-text {
+        margin-top: 230px;
+        width: 400px;
+    }
+
+    .second-p {
+        margin-top: 350px;
+    }
+
+}  
+
+@media (max-width: 500px) {
+    .first-text {
+        margin-top: 230px;
+        width: 300px;
+    }
+
+    .second-p {
+        margin-top: 380px;
+        width: 300px;
+    }
+
+    .third-p {
+        margin-top: 480px;
+    }
+
+    .phone-pics {
+        margin-top: 550px;
+    }
+
+}  
+
+@media (max-width: 350px) {
+    .first-text {
+        margin-top: 230px;
+        width: 250px;
+    }
+
+    .second-p {
+        margin-top: 410px;
+        width: 250px;
+    }
+
+    .third-p {
+        margin-top: 510px;
+    }
+
+    .phone-pics {
+        margin-top: 580px;
+    }
+
+} 

@@ -1,0 +1,243 @@
+h2 {
+    margin-left: var(--left);
+    margin-top: 80px;
+}
+
+.manage-your-money {
+    width: 50%;
+}
+
+.pic-and-text {
+    display: flex;
+    margin-left: var(--left);
+}
+
+.text-wrapper {
+    width: 530px;
+    margin-left: 30px;
+}
+
+.heading-text {
+    font-size: 115%;
+    font-weight: bold;
+}
+
+.text-text {
+    font-size: 115%;
+    margin-bottom: 50px;
+}
+
+.mini-pic {
+    margin-top: -120px;
+    width: 40px;
+}
+
+.i-phone {
+    margin-right: var(--right);
+    margin-left: auto;
+    margin-top: 60px;
+    max-width: 400px;
+}
+
+.white {
+    color: white;
+    position: absolute;
+    margin-top: 200px;
+    margin-right: var(--right);
+}
+
+.content-3-text {
+    font-size: 115%;
+    color: #d2d8e0;
+    position: absolute;
+    margin-left: var(--left);
+    margin-right: var(--right);
+    margin-top: 270px;
+    max-width: 500px;
+}
+
+.block-wrapper {
+    display: flex;
+    margin-bottom: 130px;
+}
+
+.calculator {
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    max-width: 535px;
+}
+
+.square {
+    color: #14233c;
+    width: calc(50% - 60px);
+    background-color: white;
+    margin-top: -100px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 5px rgb(221, 221, 221);
+}
+
+.one {
+    margin-left: var(--left);
+    margin-right: 15px;
+}
+
+.two {
+    margin-right: var(--right);
+    margin-left: 15px;
+}    
+    
+
+h3 {
+    padding-left: 30px;
+}
+
+.calc-text {
+    font-size: 115%;
+    width: calc(80% - 10px / 2);
+    padding-right: 10px;
+}
+
+.calc-pic {
+    width: calc(20% - 10px / 2);
+    padding-left: 10px;
+}
+
+.extra {
+    padding-right: 20px;
+}
+
+.pic-correction {
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 950px) {
+    .i-phone {
+        width: 350px;
+    }
+}
+
+@media (max-width: 900px) {
+    
+    .calc-text {
+        width: calc(70% - 10px / 2);
+    }
+    
+    .calc-pic {
+        width: calc(30% - 10px / 2);
+    }
+
+    .pic-correction {
+        margin-top: -15px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .i-phone {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        width: 300px;
+    }
+
+    .manage-your-money {
+        width: 100%;
+    }
+
+    .block-wrapper {
+        display: block;
+        margin-bottom: 0px;
+        margin-left: var(--left);
+        margin-right: var(--right);
+    }
+
+    .square {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        margin-top: -50px;
+        margin-bottom: 100px;
+    }
+
+    .calculator {
+        max-width: none;
+    }
+
+    .calc-text {
+        font-size: 115%;
+        width: calc(80% - 10px / 2);
+        padding-right: 10px;
+    }
+    
+    .calc-pic {
+        width: calc(20% - 10px / 2);
+        padding-left: 10px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+}
+
+
+@media (max-width: 606px) {
+
+    .content-3-text {
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .block-wrapper {
+        display: block;
+    }
+
+    .white {
+        margin-top: 150px;
+    }
+
+    .calc-text {
+        width: calc(70% - 10px / 2);
+    }
+    
+    .calc-pic {
+        width: calc(30% - 10px / 2);
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .i-phone {
+        width: 200px;
+    }
+
+    .pic-and-text {
+        display: block;
+    }
+
+    .text-wrapper {
+        margin-left: 0;
+        margin-right: var(--right);
+        width: auto;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .calculator {
+        display: block;
+    }
+
+    .calc-text {
+        width: 100%;
+    }
+    
+    .calc-pic {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    }
+}

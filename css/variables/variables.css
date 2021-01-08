@@ -1,0 +1,14 @@
+html {
+  /* --variable-name: value; */
+
+  --left: 50px;
+  --right: 50px;
+
+}
+
+@media (max-width: 400px) {
+  html {
+    --left: 20px;
+    --right: 20px;
+  }
+}
